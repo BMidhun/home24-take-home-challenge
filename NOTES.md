@@ -6,5 +6,5 @@ In the course of developing the application, I was receiving random responses wh
 - response with status code 200 with response data as null
 
 
-As a workaround solution to this blocker, the successful response was mocked and the mocking the existing api can be found in the directory client/src/mock/index.js
+As a workaround solution to this blocker, the successful response was mocked and the code for mocking the existing api can be found in the directory client/src/mock/index.js
 
