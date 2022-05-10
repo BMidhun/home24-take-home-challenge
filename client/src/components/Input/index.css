@@ -1,0 +1,12 @@
+.text-input {
+  padding: 0.5rem 0.8rem;
+  border: 1px solid #aaa;
+  outline: none;
+  outline: none;
+  font-size: 18px;
+  transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.text-input:focus {
+  border: 1px solid var(--base-color);
+}

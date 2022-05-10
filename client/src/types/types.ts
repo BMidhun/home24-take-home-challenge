@@ -1,0 +1,46 @@
+/* istanbul ignore file  */
+export type Category = {
+  name: string;
+  categoryArticles: CategoryArticle;
+  articleCount: number;
+  childrenCategories: ChildCategory;
+};
+
+export type Article = {
+  name: string;
+  variantName: string;
+  prices: Prices;
+  images: Image[];
+};
+
+export type ChildCategory = {
+  list: Array<{ name: string; urlPath: string }>;
+};
+
+export type Prices = {
+  currency: string;
+  regular: {
+    value: number;
+  };
+};
+
+export type Image = {
+  path: string;
+};
+
+export type CategoryArticle = {
+  articles: Article[];
+};
+
+export type cartItem = {
+  name: string;
+  price: number;
+  id: string;
+  qty: number;
+};
+
+export type ShopState = {
+  cartItems: cartItem[];
+  totalAmount: number;
+  totalQty: number;
+};
