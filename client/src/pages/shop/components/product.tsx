@@ -35,7 +35,7 @@ function Product(props: IArticle) {
   }
 
   return (
-    <div className="product">
+    <article className="product">
       <img src={`${images[0].path}`} alt="product" className="product-image" />
       <div className="product-detail-key">Name</div>
       <hr />
@@ -50,7 +50,7 @@ function Product(props: IArticle) {
       <div style={{ marginTop: "1.5rem" }}>
         <Button onClick={addToCart}>Add to Cart</Button>
       </div>
-    </div>
+    </article>
   );
 }
 
