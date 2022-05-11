@@ -1,7 +1,7 @@
 ## TODO
 
 - Add a checkout page
-- Add a pagination on product list page
+- Implement pagination or infinite scroll on product list page
 - Implement search feature
 - Add sorting and filter capabilities
 - Make UI responsive
