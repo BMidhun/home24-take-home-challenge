@@ -11,11 +11,13 @@ As a workaround solution to this blocker, the successful response was mocked and
 
 Comment the code 
 
+```javascript
 if (process.env.NODE_ENV === "development") {
   startMockServer();
 }
+```
 
-from the file client/src/index.tsx to make the api call to the actual local server
+from the file client/src/index.tsx to make the api call to the actual local server.
 
 ## Frontend Coverage Report
 
