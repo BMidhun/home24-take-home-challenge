@@ -9,6 +9,14 @@ In the course of developing the application, I was receiving random responses wh
 
 As a workaround solution to this blocker, the successful response was mocked and the code for mocking the existing api can be found in the directory client/src/mock/index.js.
 
+Comment the code 
+
+if (process.env.NODE_ENV === "development") {
+  startMockServer();
+}
+
+from the file client/src/index.tsx to make the api call to the actual local server
+
 ## Frontend Coverage Report
 
 To see the test coverage report, please follow the steps below
