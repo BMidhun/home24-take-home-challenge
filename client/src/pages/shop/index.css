@@ -41,6 +41,7 @@
   border: 1px solid #eee;
   padding: 1rem;
   margin: 0.5rem;
+  height: fit-content;
 }
 
 .product-image {
